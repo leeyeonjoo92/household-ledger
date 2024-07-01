@@ -1,0 +1,43 @@
+.items {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 1vh 0;
+  margin-bottom: 2vh;
+}
+
+.items div {
+  padding: 1%;
+  text-align: center;
+}
+
+.items-type {
+  width: 10%;
+  background: #eaeaea;
+  border-radius: 10px;
+}
+
+.items-name {
+  width: 20%;
+  text-align: left !important;
+}
+
+.items-date {
+  width: 15%;
+}
+
+.items-price {
+  width: 10%;
+}
+
+.items-repurchase {
+  width: 10%;
+}
+
+.items-memo {
+  width: 15%;
+  word-break: break-word;
+}

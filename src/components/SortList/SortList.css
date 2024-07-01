@@ -1,0 +1,21 @@
+.sort-lists {
+  margin: 5vh auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sort-lists .sort-list {
+  margin: 0 !important;
+}
+
+.sort-list {
+  width: 25%;
+}
+
+.sort-period {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1vw;
+  width: 35%;
+}

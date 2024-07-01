@@ -1,0 +1,51 @@
+#purchase-form {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/**************************************
+ * label
+ */
+.purchase__labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  text-align: right;
+  margin-right: 1vw;
+}
+
+.purchase__label:not(.purchase__label:last-child) {
+  margin-bottom: 2vh;
+}
+
+/**************************************
+ * input 입력칸
+ */
+.purchase__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.purchase__input:not(.purchase__input:last-child) {
+  margin-bottom: 2vh;
+}
+
+/* 메모 text */
+.purchase-memo__inputs input[type="text"] {
+  margin-left: 1vw;
+}
+.purchase-memo__input {
+  display: none;
+}
+
+/* radio */
+.purchase-repurchase__inputs input:last-child {
+  margin-left: 1vw;
+}
